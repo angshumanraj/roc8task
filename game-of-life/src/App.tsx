@@ -5,7 +5,7 @@ import PlayPauseButton from "./components/PlayPauseButton";
 import Button from "./components/Button";
 import Select from "./components/Select";
 import { FaGithub } from "react-icons/fa";
-
+//task
 function App() {
   const [grid, setGrid] = useState<number[][]>(createEmptyGrid());
   const [isPlaying, setIsPlaying] = useState(false);
